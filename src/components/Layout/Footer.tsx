@@ -9,7 +9,7 @@ export const Footer = () => {
             <h3 className="font-semibold text-[#CB6686] text-2xl">
               Lyte-Hosting{" "}
             </h3>
-            <p className="font-normal text-lg text-white max-w-[400px]">
+            <p className="font-normal lg:text-lg text-base text-white max-w-[400px]">
               1942 BROADWAY STREET, BOULDER CO, US Copyright 2023
               LyteHosting.com{" "}
             </p>
@@ -24,39 +24,61 @@ export const Footer = () => {
           <div className="flex flex-wrap lg:items-start lg:space-x-24 w-full justify-between lg:justify-normal gap-y-5 lg:gap-0">
             <div className="flex flex-col space-y-3">
               <h3 className="font-semibold text-xl text-white">Hosting</h3>
-              <p className="font-normal text-lg text-white">Share Hosting</p>
-              <p className="font-normal text-lg text-white">Reseller Hosting</p>
-              <p className="font-normal text-lg text-white">VPS Hosting</p>
-              <p className="font-normal text-lg text-white">
+              <p className="font-normal lg:text-lg text-base text-white">
+                Share Hosting
+              </p>
+              <p className="font-normal lg:text-lg text-base text-white">
+                Reseller Hosting
+              </p>
+              <p className="font-normal lg:text-lg text-base text-white">
+                VPS Hosting
+              </p>
+              <p className="font-normal lg:text-lg text-base text-white">
                 WordPress Hosting
               </p>
             </div>
 
             <div className="flex flex-col space-y-3">
               <h3 className="font-semibold text-xl text-white">Company</h3>
-              <p className="font-normal text-lg text-white">About Us</p>
-              <p className="font-normal text-lg text-white">Testimonials</p>
-              <p className="font-normal text-lg text-white">Our Blogs</p>
-              <p className="font-normal text-lg text-white">All Our Products</p>
+              <p className="font-normal lg:text-lg text-base text-white">
+                About Us
+              </p>
+              <p className="font-normal lg:text-lg text-base text-white">
+                Testimonials
+              </p>
+              <p className="font-normal lg:text-lg text-base text-white">
+                Our Blogs
+              </p>
+              <p className="font-normal lg:text-lg text-base text-white">
+                All Our Products
+              </p>
             </div>
 
             <div className="flex flex-col space-y-3">
               <h3 className="font-semibold text-xl text-white">Contact</h3>
-              <p className="font-normal text-lg text-white">Contact Us</p>
-              <p className="font-normal text-lg text-white">Submit Tickets</p>
-              <p className="font-normal text-lg text-white">
+              <p className="font-normal lg:text-lg text-base text-white">
+                Contact Us
+              </p>
+              <p className="font-normal lg:text-lg text-base text-white">
+                Submit Tickets
+              </p>
+              <p className="font-normal lg:text-lg text-base text-white">
                 Terms & Condition
               </p>
-              <p className="font-normal text-lg text-white">Privacy Policy</p>
+              <p className="font-normal lg:text-lg text-base text-white">
+                Privacy Policy
+              </p>
             </div>
           </div>
         </div>
 
-        <div className="px-6 hidden">
+        <div className="">
           <div className="w-full h-[1px] bg-[#D9DBE9]"></div>
-          <div className="flex items-center justify-between py-4">
-            <p className="font-normal text-lg text-white">Copyright © 2024 </p>
-            <div className="flex items-center gap-2">
+          <div className="flex lg:flex-row flex-col space-y-5 items-center justify-between py-4">
+            <p className="font-normal lg:text-lg text-base text-white">
+              Copyright © 2024{" "}
+            </p>
+            <div className="flex items-center gap-2 justify-center w-full">
               <Image src="/paypal.svg" width={50} height={50} alt="socila" />
               <Image src="/visa.svg" width={50} height={50} alt="socila" />
               <Image
@@ -65,9 +87,15 @@ export const Footer = () => {
                 height={50}
                 alt="socila"
               />
-              <Image src="/america.svg" width={50} height={50} alt="socila" />
+              <Image
+                src="/america.svg"
+                width={50}
+                height={50}
+                alt="socila"
+                className="bg-white rounded-md"
+              />
             </div>
-            <p className="font-normal text-lg text-white">
+            <p className="font-normal text-center lg:text-start lg:text-lg text-base text-white">
               All Rights Reserved |{" "}
               <span className="underline">Terms and Conditions</span> |{" "}
               <span className="underline">Privacy Policy</span>
