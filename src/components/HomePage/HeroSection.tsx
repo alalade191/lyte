@@ -12,7 +12,7 @@ export const HeroSection = () => {
             Welcome 👋
           </h3>
         </div>
-        <h3 className=" font-extrabold lg:text-[95px] md:text-[80px] text-black text-center pb-4 lg:pb-2">
+        <h3 className=" font-extrabold lg:text-[95px] md:text-[80px] text-[25px] text-black text-center pb-4 lg:pb-2">
           Welcome{" "}
           <span className="bg-custom-gradient text-transparent bg-clip-text">
             to Your New
