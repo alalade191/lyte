@@ -7,8 +7,8 @@ export const HeroSection = () => {
   return (
     <section className="px-4 md:px-8 lg:px-20">
       <div className="">
-        <div className="border border-[#A4ACB93D] rounded-[114.94px] w-fit flex mx-auto items-center justify-center pb-2">
-          <h3 className=" px-[6.9px] py-[5.75px] font-medium text-lg ">
+        <div className="border border-[#A4ACB93D] rounded-[30px] w-fit flex mx-auto items-center justify-center">
+          <h3 className=" px-[6.9px] py-[5.75px] font-medium text-lg text-center text-[#666D80]">
             Welcome 👋
           </h3>
         </div>
