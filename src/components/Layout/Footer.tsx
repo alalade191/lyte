@@ -17,8 +17,8 @@ export const Footer = () => {
               <Image src="/Facebook.svg" width={20} height={20} alt="socila" />
               <Image src="/Twitter.svg" width={30} height={30} alt="socila" />
               <Image src="/Instagram.svg" width={30} height={30} alt="socila" />
-              <Image src="/Linkedin.svg" width={30} height={30} alt="socila" />
-              <Image src="/Youtube.svg" width={30} height={30} alt="socila" />
+              <Image src="/LinkedIn.svg" width={30} height={30} alt="socila" />
+              <Image src="/YouTube.svg" width={30} height={30} alt="socila" />
             </div>
           </div>
           <div className="flex flex-wrap lg:items-start lg:space-x-24 w-full justify-between lg:justify-normal gap-y-5 lg:gap-0">
